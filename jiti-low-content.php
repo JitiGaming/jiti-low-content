@@ -10,7 +10,7 @@ License: Copyleft
 
 add_action('admin_menu', function() {
     add_menu_page(
-        'Articles par nombre de mots',
+        'Jiti - Low Content',
         'Articles/Mots',
         'manage_options',
         'jiti-low-content', // Slug modifié ici
