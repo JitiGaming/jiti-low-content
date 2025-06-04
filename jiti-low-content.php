@@ -11,7 +11,7 @@ License: Copyleft
 add_action('admin_menu', function() {
     add_menu_page(
         'Jiti - Low Content',
-        'Articles/Mots',
+        'Jiti - Low Content',
         'manage_options',
         'jiti-low-content', // Slug modifié ici
         'jiti_low_content_admin_page',
