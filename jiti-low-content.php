@@ -21,7 +21,7 @@ add_action('admin_menu', function() {
 
 function jiti_low_content_admin_page() {
     // Initialisation sécurisée des variables
-    $threshold = 300;
+    $threshold = 200;
     $type = 'inf';
     $keyword = '';
 
